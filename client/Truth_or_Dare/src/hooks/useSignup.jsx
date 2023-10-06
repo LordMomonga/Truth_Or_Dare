@@ -12,7 +12,7 @@ export const useSignup = () => {
         setIsLoading(true)
         setError(null)
 
-        const response = await fetch('https://truth-or-dare-flame.vercel.app/api/user/signup', {
+        const response = await fetch('https://truth-or-dare-orcin.vercel.app/api/user/signup', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
 
