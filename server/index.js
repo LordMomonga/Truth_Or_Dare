@@ -8,10 +8,17 @@ const usersRoutes = require('./routes/user')
 
 connection();
 // mddleware
+
+const corsOptions = {
+  origin: 'https://truth-or-dare-aov.vercel.app',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true, // Si vous utilisez des cookies ou des en-têtes d'autorisation
+  optionsSuccessStatus: 204, // Répond avec un statut 204 pour les pré-vérifications CORS
+};
+
 app.use(express.json());
 //parametre cors
-
-app.use(cors());
+app.use(cors(corsOptions));
 //routes
 
 
