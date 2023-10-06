@@ -2,12 +2,26 @@
   "version": 2,
   "name": "Truth_Or_Dare",
  "builds": {
-   "src": "index.js",
+   "src": "api/user/*.js",
    "use": "@vercel/node"
  },
   
   
   "routes": [
+     {
+      "src": "/api/user/login",
+      "methods": ["POST"],
+      "dest": "api/user/login.js"
+    },
+    {
+      "src": "/api/user/signup",
+      "methods": ["POST"],
+      "dest": "api/user/signup.js"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "api/$1.js"
+    },
     {
       "src": "/(.*)",
       "dest": "index.js"
