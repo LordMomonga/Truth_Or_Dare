@@ -9,6 +9,7 @@ const usersRoutes = require('./routes/user')
 connection();
 // mddleware
 app.use(express.json());
+//parametre cors
 const corsOptions = {
   origin: 'https://truth-or-dare-aov.vercel.ap', // Remplacez par le domaine de votre site front-end
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
