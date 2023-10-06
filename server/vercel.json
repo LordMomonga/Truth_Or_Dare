@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "Truth_Or_Dare",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ]
+}
