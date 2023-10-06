@@ -5,20 +5,7 @@
  
   
   "routes": [
-     {
-      "src": "/api/user/login",
-      "methods": ["POST"],
-      "dest": "api/user/login.js"
-    },
-    {
-      "src": "/api/user/signup",
-      "methods": ["POST"],
-      "dest": "api/user/signup.js"
-    },
-    {
-      "src": "/api/(.*)",
-      "dest": "api/$1.js"
-    },
+    
     {
       "src": "/(.*)",
       "dest": "index.js"
