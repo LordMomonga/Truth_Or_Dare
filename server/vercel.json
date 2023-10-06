@@ -1,7 +1,11 @@
 {
   "version": 2,
   "name": "Truth_Or_Dare",
- 
+ "builds": {
+   "src": "index.js",
+   "use": "@vercel/node"
+ }
+  
   
   "routes": [
     {
