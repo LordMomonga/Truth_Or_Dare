@@ -1,10 +1,15 @@
 {
   "version": 2,
   "name": "Truth_Or_Dare",
+  "builds":{
+    "src":"*.js",
+    "use":"vercel/node"
+  }
+  
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.js"
+      "dest": "/"
     }
   ]
 }
