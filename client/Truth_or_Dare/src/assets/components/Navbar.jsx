@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className='fixed top-0 w-screen  p-4 '>
         <div className='flex items-center justify-between '>
         <div className='font-bold text-[15px] md:text-2xl'>I am <span className='text-red-600 text-3xl' > {user.pseudo}</span></div>
-        <h1 className='text-gray-500 text-[10px] md:text-[20px] '>Truth_or_Dare</h1>
+       <Link to="/accueille"> <h1 className='text-gray-500 text-[10px] md:text-[20px] '>Truth_or_Dare</h1></Link>
         <div className=' hidden md:flex gap-5 items-center '>
         <img src={notification} alt="" className='h-[30px]' />
         <img src={mess} alt="" className='h-[30px] ' />
