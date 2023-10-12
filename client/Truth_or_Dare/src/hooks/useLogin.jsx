@@ -13,7 +13,7 @@ export const useLogin = () => {
         setIsLoading(true)
         setError(null)
 
-        const response = await fetch('https://truth-or-dare-gray.vercel.app/api/user/login', {
+        const response = await fetch('https://truth-or-dare-9cpt.onrender.com/api/user/login', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
 
