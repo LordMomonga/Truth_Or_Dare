@@ -62,7 +62,7 @@ const PageAccueille = () => {
         </div>
        
       </div>
-      <div className={`${isOpen ? 'hidden' : 'fixed'} text-[13px] flex  w-screen justify-evenly border-t-gray-500 border-b-gray-500 border-b-[1px] border-t-[1px]  top-[9%] h-[35px] items-center `} >
+      <div className={`${isOpen ? 'hidden' : 'fixed'} text-[13px] flex  w-screen justify-evenly border-t-gray-500 border-b-gray-500 border-b-[1px] border-t-[1px]  top-[9%] h-[35px] items-center mb-5 `} >
         <div className={` ${click ? '': ' border-b-2 border-blue-500  text-black font-bold'} w-full  h-full items-center flex justify-center`} onClick={() => SetClick(!click)}>FLUX</div>
         <div className={` ${click ? 'border-b-2 border-blue-500 text-black font-bold': ''} w-full  h-full items-center flex justify-center`} onClick={() => SetClick(!click)} >ACTUALITÉS</div>
       </div>
