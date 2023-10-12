@@ -68,7 +68,7 @@ const PageAccueille = () => {
       </div>
       {!click && (
         <div className={`${isOpen ? 'hidden': ''} flex flex-col fixed top-[14%] border-b-[1px] w-full border-b-gray-500 pb-1`}>
-            <h2 className='ml-5 text-[10px] text-gray-400'>EN LIGNE/FAVORIS</h2>
+            <h2 className='ml-5 text-[10px] text-gray-400 mt-3'>EN LIGNE/FAVORIS</h2>
          <Link to='/personne'>  <div>
                 <img src={personne} alt="" className='h-[35px] mt-2 rounded-full ml-5'/>
                 <div className='bg-blue-500  rounded-full w-[14px] absolute  top-[46%] left-[10%] '>
