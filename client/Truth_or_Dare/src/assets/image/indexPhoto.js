@@ -8,6 +8,9 @@ import lock from './close.svg'
 import personne from './personne.png'
 import icon from './icon.png'
 import home from './home.png'
+import lien from './liens.png'
+import id from './ids.png'
+import groupe from './groupes.png'
 export{logo,
 fume,
 fum,
@@ -16,5 +19,7 @@ mess,
 menu,
 lock, personne,
 icon,
-home
+home,
+lien, id,
+groupe
 }
