@@ -78,6 +78,7 @@ const Ami = () => {
       <div className={`${isOpen ? 'hidden': ''} flex flex-col fixed top-[14%] w-full border-b-gray-500 pb-1`}>
          <div className='text-[14px] border-b-[1px] border-gray-400 pb-3 mt-3 text-gray-400 font-bold flex items-center '  onClick={ (e) => setAmiAdd(true)}> <img src={id} alt="" className='flex h-[40px] ' />Ajouter un ami avec un ID</div>
          <div className='text-[14px] border-b-[1px] border-gray-400 pb-3 mt-3 text-gray-400 font-bold flex items-center '> <img src={lien} alt=""  className='flex h-[40px] '/>Partager le lien Ami</div>
+          <div className='mt-2 text-[11px] text-gray-500 font-bold ml-5'>AMIS</div>
           
 
 
